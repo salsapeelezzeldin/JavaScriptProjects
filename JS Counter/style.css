@@ -1,0 +1,36 @@
+body{
+    background-color: rgb(229, 237, 240);
+}
+.container {
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.counter {
+    font-size: 100px;
+    color: black;
+}
+
+.btn {
+    background: none;
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+button:hover {
+    background-color: black;
+    color: white;
+}
+
+.positive{
+    color: rgb(2, 93, 2);
+}
+
+.negative{
+    color: rgb(177, 12, 12);
+}
